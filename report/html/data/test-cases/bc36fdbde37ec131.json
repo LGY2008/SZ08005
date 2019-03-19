@@ -1,0 +1,115 @@
+{
+  "uid" : "bc36fdbde37ec131",
+  "name" : "Test01.test001",
+  "fullName" : "test01.Test01.test001",
+  "historyId" : "c66c7b9857adaf1bf780421506bf22cc",
+  "time" : {
+    "start" : 1552962872233,
+    "stop" : 1552962872238,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "新增地址方法被执行",
+      "time" : {
+        "start" : 1552962872238,
+        "stop" : 1552962872238,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5285b671450bb01b",
+        "name" : "点击新增地址按钮",
+        "source" : "5285b671450bb01b.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "c473cd9f624d96d0",
+        "name" : "点击新增输入收件人：",
+        "source" : "c473cd9f624d96d0.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "a9d44b2b4b378db3",
+        "name" : "点击新增输入手机号：",
+        "source" : "a9d44b2b4b378db3.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "43a0ba82e31773fb",
+        "name" : "点击新增输入收货地址：",
+        "source" : "43a0ba82e31773fb.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "6d6911f51ac7442b",
+        "name" : "点击新增输入点击新增：",
+        "source" : "6d6911f51ac7442b.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "MS-20180906QJYH"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "thread",
+    "value" : "1496-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test01"
+  }, {
+    "name" : "testClass",
+    "value" : "test01"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01.test001"
+  }, {
+    "name" : "package",
+    "value" : "test01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bc36fdbde37ec131.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,90 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1552987486578" stop="1552987486723">
+  <name>test01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1552987486578" status="passed" stop="1552987486582">
+      <name>Test01.test001</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="minor"/>
+        <label name="thread" value="5384-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1552987486581" status="passed" stop="1552987486581">
+          <name>新增地址方法被执行</name>
+          <title>新增地址方法被执行</title>
+          <attachments>
+            <attachment source="a0991e3d-3cfb-446e-83e0-65677980e5ea-attachment.txt" title="点击新增地址按钮" type="text/plain"/>
+            <attachment source="01d95b9e-1d86-4f80-8707-118887b2cb44-attachment.txt" title="点击新增输入收件人：" type="text/plain"/>
+            <attachment source="8c01fa78-8b8d-464b-99db-b61ff0acd134-attachment.txt" title="点击新增输入手机号：" type="text/plain"/>
+            <attachment source="ea988554-d4b1-45eb-b4ac-05f73ca72be3-attachment.txt" title="点击新增输入收货地址：" type="text/plain"/>
+            <attachment source="2f134bc7-b0ac-4106-97d9-0e9d9ba8275c-attachment.txt" title="点击新增输入点击新增：" type="text/plain"/>
+          </attachments>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1552987486596" status="passed" stop="1552987486599">
+      <name>Test01.test002</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="critical"/>
+        <label name="thread" value="5384-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1552987486599" status="passed" stop="1552987486599">
+          <name>更新地址方法被执行</name>
+          <title>更新地址方法被执行</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1552987486600" status="failed" stop="1552987486717">
+      <name>Test01.test003</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>self = &lt;test01.Test01 object at 0x0333DC50&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    def test003(self):
+        print("断言失败，截图并写入报告")
+        with open("./image/faile.png","rb")as f:
+            allure.attach("失败原因：", f.read(), allure.attach_type.PNG)
+&gt;           assert False
+E           assert False
+
+scripts\test01.py:39: AssertionError</stack-trace>
+      </failure>
+      <attachments>
+        <attachment source="18ce40e7-5b35-48e4-bbfb-009619043828-attachment.png" title="失败原因：" type="image/png"/>
+      </attachments>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="5384-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1552987486721" status="passed" stop="1552987486723">
+      <name>Test01.test004</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="5384-MainThread"/>
+        <label name="host" value="MS-20180906QJYH"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
